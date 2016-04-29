@@ -17,8 +17,8 @@ background = pygame.transform.scale(background, (SCREEN_WIDTH,SCREEN_HEIGHT))
 theClock = pygame.time.Clock()
 isItem = False
 ItemList = []
-# 아래 10을 마음껏 바꿔보세요 !
-max_cnt = 10
+# 아래 5를 마음껏 바꿔보세요 !
+max_cnt = 5
 for i in range(0,max_cnt):
     ItemList.append(Item(0,0))
 
@@ -29,9 +29,10 @@ while game_loop:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             game_loop = False
-			
+    # 아래 빈칸에 따라쳐보세요.			
     if game_loop_cnt!=max_cnt:
-        #ItemList[game_loop_cnt].change_rect(random.randint(0, SCREEN_WIDTH - ITEM_WIDTH), random.randint(0, SCREEN_HEIGHT - ITEM_HEIGHT))
+        # ItemList[game_loop_cnt].change_rect(random.randint(0, SCREEN_WIDTH - ITEM_WIDTH), random.randint(0, SCREEN_HEIGHT - ITEM_HEIGHT))
+        
         pass
 
 	

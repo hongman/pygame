@@ -37,10 +37,11 @@ while game_loop:
     screen.blit(background,(0,0))
     
     # Draw Items
+    # 아래 빈칸에 따라쳐보세요.
     for i in range(0,game_loop_cnt):
-        #ItemList[i].update()
-        #screen.blit(ItemList[i].image, (ItemList[i].rect.x,ItemList[i].rect.y))
+        # ItemList[i].update()
         
+        # screen.blit(ItemList[i].image, (ItemList[i].rect.x,ItemList[i].rect.y))
         
         pass
         

@@ -24,15 +24,15 @@ while game_loop:
         if event.type == pygame.QUIT:
             game_loop = False
         
-    # Draw the background
+    
     screen.blit(background,(0,0))
     
-    # Draw the Item
+    
     screen.blit(Item.image, (Item.rect.x,Item.rect.y))
     Item.update()
 	
-    # 따라쳐보세요.
-    #pygame.display.flip()
+    # 아래 빈칸에 따라쳐보세요.
+    # pygame.display.flip()
     
     theClock.tick(3)
 
